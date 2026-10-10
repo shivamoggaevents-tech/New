@@ -1,0 +1,1320 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&amp;family=Manrope:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        "colors": {
+          "surface-dim": "#dcd9d9",
+          "on-secondary-fixed": "#101e19",
+          "inverse-surface": "#313030",
+          "on-secondary-fixed-variant": "#3b4a44",
+          "on-primary-container": "#4e3700",
+          "emerald-surface": "#12231D",
+          "hallmark-gold": "#C5A059",
+          "surface-container": "#f0eded",
+          "tertiary-container": "#c0a168",
+          "on-surface-variant": "#4e4639",
+          "outline": "#7f7667",
+          "primary": "#775a19",
+          "on-primary-fixed": "#261900",
+          "on-background": "#1c1b1b",
+          "tertiary-fixed": "#ffdea4",
+          "surface-bright": "#fcf9f8",
+          "on-error": "#ffffff",
+          "error-container": "#ffdad6",
+          "primary-fixed-dim": "#e9c176",
+          "secondary-container": "#d3e3db",
+          "emerald-deep": "#0B1914",
+          "border-hairline": "#D4CABE",
+          "on-tertiary-fixed": "#261900",
+          "surface": "#fcf9f8",
+          "gold-deep": "#997736",
+          "border-subtle": "#E5DFD5",
+          "inverse-primary": "#e9c176",
+          "gold-light": "#DFBE82",
+          "error": "#ba1a1a",
+          "primary-container": "#c5a059",
+          "surface-container-lowest": "#ffffff",
+          "on-error-container": "#93000a",
+          "secondary": "#53625b",
+          "on-tertiary": "#ffffff",
+          "surface-variant": "#e5e2e1",
+          "primary-fixed": "#ffdea5",
+          "tertiary-fixed-dim": "#e3c286",
+          "inverse-on-surface": "#f3f0ef",
+          "background": "#fcf9f8",
+          "on-tertiary-container": "#4d3707",
+          "surface-container-high": "#eae7e7",
+          "surface-container-low": "#f6f3f2",
+          "surface-cream": "#FAF8F5",
+          "on-surface": "#1c1b1b",
+          "surface-ivory": "#F5F1EB",
+          "on-primary-fixed-variant": "#5d4201",
+          "upi-brand": "#5F259F",
+          "secondary-fixed-dim": "#bacac2",
+          "surface-container-highest": "#e5e2e1",
+          "secondary-fixed": "#d6e6de",
+          "on-secondary-container": "#57665f",
+          "on-primary": "#ffffff",
+          "tertiary": "#745b28",
+          "on-tertiary-fixed-variant": "#5a4313",
+          "outline-variant": "#d1c5b4",
+          "surface-pure": "#FFFFFF",
+          "on-secondary": "#ffffff",
+          "surface-tint": "#775a19"
+        },
+        "borderRadius": {
+          "DEFAULT": "0.25rem",
+          "lg": "0.5rem",
+          "xl": "0.75rem",
+          "full": "9999px"
+        },
+        "spacing": {
+          "gutter": "1.5rem",
+          "space-lg": "1.5rem",
+          "gutter-desktop": "2.5rem",
+          "space-xl": "2.5rem",
+          "space-sm": "0.5rem",
+          "space-md": "1rem",
+          "margin": "1.25rem",
+          "margin-desktop": "4rem",
+          "space-3xl": "6rem",
+          "space-2xl": "4rem",
+          "space-xs": "0.25rem"
+        },
+        "fontFamily": {
+          "headline-lg": [
+            "EB Garamond"
+          ],
+          "display-xl": [
+            "EB Garamond"
+          ],
+          "headline-lg-mobile": [
+            "EB Garamond"
+          ],
+          "label-lg": [
+            "Manrope"
+          ],
+          "body-lg": [
+            "Manrope"
+          ],
+          "body-sm": [
+            "Manrope"
+          ],
+          "label-sm": [
+            "Manrope"
+          ],
+          "body-md": [
+            "Manrope"
+          ],
+          "headline-sm": [
+            "EB Garamond"
+          ],
+          "title-md": [
+            "EB Garamond"
+          ],
+          "headline-md": [
+            "EB Garamond"
+          ],
+          "label-md": [
+            "Manrope"
+          ],
+          "display-xl-mobile": [
+            "EB Garamond"
+          ]
+        },
+        "fontSize": {
+          "headline-lg": [
+            "3rem",
+            {
+              "lineHeight": "1.15",
+              "letterSpacing": "-0.01em",
+              "fontWeight": "400"
+            }
+          ],
+          "display-xl": [
+            "4.5rem",
+            {
+              "lineHeight": "1.05",
+              "letterSpacing": "-0.02em",
+              "fontWeight": "400"
+            }
+          ],
+          "headline-lg-mobile": [
+            "2rem",
+            {
+              "lineHeight": "1.2",
+              "letterSpacing": "0em",
+              "fontWeight": "400"
+            }
+          ],
+          "label-lg": [
+            "0.875rem",
+            {
+              "lineHeight": "1.2",
+              "letterSpacing": "0.08em",
+              "fontWeight": "600"
+            }
+          ],
+          "body-lg": [
+            "1.125rem",
+            {
+              "lineHeight": "1.6",
+              "fontWeight": "400"
+            }
+          ],
+          "body-sm": [
+            "0.8125rem",
+            {
+              "lineHeight": "1.5",
+              "fontWeight": "400"
+            }
+          ],
+          "label-sm": [
+            "0.6875rem",
+            {
+              "lineHeight": "1.15",
+              "letterSpacing": "0.15em",
+              "fontWeight": "700"
+            }
+          ],
+          "body-md": [
+            "0.9375rem",
+            {
+              "lineHeight": "1.55",
+              "fontWeight": "400"
+            }
+          ],
+          "headline-sm": [
+            "1.75rem",
+            {
+              "lineHeight": "1.25",
+              "fontWeight": "500"
+            }
+          ],
+          "title-md": [
+            "1.25rem",
+            {
+              "lineHeight": "1.3",
+              "letterSpacing": "0.02em",
+              "fontWeight": "600"
+            }
+          ],
+          "headline-md": [
+            "2.25rem",
+            {
+              "lineHeight": "1.2",
+              "fontWeight": "500"
+            }
+          ],
+          "label-md": [
+            "0.75rem",
+            {
+              "lineHeight": "1.2",
+              "letterSpacing": "0.12em",
+              "fontWeight": "600"
+            }
+          ],
+          "display-xl-mobile": [
+            "2.75rem",
+            {
+              "lineHeight": "1.1",
+              "letterSpacing": "-0.01em",
+              "fontWeight": "400"
+            }
+          ]
+        }
+      },
+    },
+  }</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-pure/95 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="bg-emerald-deep text-hallmark-gold px-margin lg:px-margin-desktop py-space-xs"><div class="max-w-7xl mx-auto flex items-center justify-between font-label-sm text-label-sm uppercase tracking-widest"><span>Complimentary Insured Express Shipping on Orders Above ₹5,000 | 100% Certified Hallmarked Jewels</span><div class="hidden md:flex items-center gap-space-md"><span class="flex items-center gap-space-xs text-surface-pure"><span class="material-symbols-outlined text-[14px] text-hallmark-gold">verified</span> BIS 916 Pure Gold</span><a class="text-hallmark-gold hover:text-surface-pure transition-colors" data-path="admin-portal" href="#">Atelier Portal</a></div></div></div><div class="h-20 max-w-7xl mx-auto px-margin lg:px-margin-desktop flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md"><img alt="RareMade Luxury Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1XSi0DNpxGMIGGeme4BJHvkEf02CSSVD6Sf4oEz_6-3MZ1NF6wCkrD3bh9BMeMWTkNPYixZl2UmgtrBVRz_sbA-iEutICpCWOQCtZAQkG4kdncuZ_KIAjCn_JQ70O5ByjEi1QzL8C0JpahvPrYJh_P3nekmlSZZGlYs_ChYP2_1tgrbrGdnBNE5LfnBwVDiB5-Uj20BqB4lcE51HyS_yG_CKVnCpNXc0DGcK_jZHaKp64yTgPhxJv9XH715"/><a class="flex flex-col" data-path="home" href="#"><span class="font-headline-sm text-headline-sm tracking-tight text-emerald-deep font-semibold">RareMade</span><span class="font-label-sm text-label-sm tracking-[0.2em] uppercase text-gold-deep -mt-1">Haute Atelier</span></a></div><nav class="hidden xl:flex items-center gap-space-lg" data-active-classes="text-emerald-deep font-bold border-b-2 border-hallmark-gold"><a class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-emerald-deep transition-colors py-2" data-path="collections" href="#">Collections</a><a class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-emerald-deep transition-colors py-2" data-path="necklaces" href="#">Necklaces</a><a class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-emerald-deep transition-colors py-2" data-path="earrings" href="#">Earrings</a><a class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-emerald-deep transition-colors py-2" data-path="rings" href="#">Rings</a><a class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-emerald-deep transition-colors py-2" data-path="bridal-suite" href="#">Bridal</a><a class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-emerald-deep transition-colors py-2" data-path="care-and-heritage" href="#">Care &amp; Heritage</a></nav><div class="flex items-center gap-space-sm"><div class="relative hidden sm:flex items-center"><input class="w-48 lg:w-56 bg-surface-cream text-body-sm font-body-sm text-on-surface pl-space-md pr-8 py-space-xs focus:outline-none focus:bg-surface-pure" placeholder="Search bespoke jewels..." type="text"/><span class="material-symbols-outlined absolute right-2 text-outline text-[18px]">search</span></div><div class="hidden md:flex items-center px-space-xs py-1 bg-surface-ivory font-label-sm text-label-sm font-semibold text-emerald-deep">₹ INR</div><a class="hidden lg:flex items-center gap-space-xs px-space-sm py-1.5 bg-emerald-deep text-hallmark-gold hover:bg-emerald-surface transition-colors font-label-sm text-label-sm uppercase tracking-wider" data-path="concierge-booking" href="#"><span class="material-symbols-outlined text-[15px]">chat</span>Concierge</a><a class="relative p-2 text-emerald-deep hover:text-gold-deep transition-colors" data-path="wishlist" href="#"><span class="material-symbols-outlined text-[20px]">favorite</span><span class="absolute top-1 right-1 w-4 h-4 rounded-full bg-hallmark-gold text-emerald-deep font-label-sm text-[10px] flex items-center justify-center font-bold">3</span></a><a class="relative p-2 text-emerald-deep hover:text-gold-deep transition-colors" data-path="cart-drawer" href="#"><span class="material-symbols-outlined text-[20px]">shopping_bag</span><span class="absolute top-1 right-1 w-4 h-4 rounded-full bg-emerald-deep text-hallmark-gold font-label-sm text-[10px] flex items-center justify-center font-bold">1</span></a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center ml-1"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface"><div class="flex flex-col w-full">
+<!-- EDITORIAL HERO VITRINE -->
+<section class="relative w-full bg-emerald-deep text-surface-pure overflow-hidden -mt-20 pt-28 pb-space-3xl">
+<div class="absolute inset-0 opacity-15 pointer-events-none mix-blend-screen">
+<div class="w-full h-full bg-cover bg-center" data-alt="Dark emerald velvet texture backdrop with subtle glimmering gold leaf flakes and faint soft focus studio reflections of luxury diamond facets in deep ambient museum lighting" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDMBiHJUMWRyBis0WHKTqbCJJRvf0p0Rjyil-LvOUWkrlWaEWKfOYC2-TRFyj_vojKUn46OcUVAaGYI-Pt6GpFD03fS8y8zpOfPUy8OFlc5_uD1LymOiOtLsET1TJ5TFGlL_HshF3KoM49LLrMUc_Qy0Et9p3V3rqAEDjqAOkcx9dRxugqbmzmsZHWAWegOIozHwH7U32gXGusINIhx0eCUthVJCyHvJV9jsvzKOBhVXdQZqExOGfnZzA')"></div>
+</div>
+<div class="relative max-w-7xl mx-auto px-margin lg:px-margin-desktop">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center pt-space-lg">
+<!-- Left Column: Editorial Headline & Actions -->
+<div class="lg:col-span-7 space-y-space-lg">
+<div class="flex items-center gap-space-sm">
+<span class="inline-block w-8 h-[1px] bg-hallmark-gold"></span>
+<span class="font-label-sm text-label-sm uppercase text-hallmark-gold tracking-[0.25em]">Maison d'Artisanat • Est. 1994</span>
+</div>
+<h1 class="font-display-xl text-display-xl lg:text-[5.25rem] text-surface-pure leading-[1.02] tracking-tight">
+            Timeless Splendour, <br/>
+<span class="italic font-normal text-gold-light">Rare Heritage.</span>
+</h1>
+<p class="font-body-lg text-body-lg text-surface-dim max-w-xl">
+            Architecturally proportioned high fine jewellery. Every solitaire meticulously certified by IGI; every gram of pure gold bearing the government-verified BIS 916 Hallmark. Handcrafted exclusively in Hyderabad.
+          </p>
+<!-- Micro Trust Pills Grid -->
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-space-xs pt-space-xs pb-space-sm">
+<div class="bg-emerald-surface p-space-sm flex items-center gap-2">
+<span class="material-symbols-outlined text-hallmark-gold text-lg">verified</span>
+<span class="font-label-sm text-label-sm uppercase text-surface-pure tracking-wider">BIS 916 Pure</span>
+</div>
+<div class="bg-emerald-surface p-space-sm flex items-center gap-2">
+<span class="material-symbols-outlined text-hallmark-gold text-lg">workspace_premium</span>
+<span class="font-label-sm text-label-sm uppercase text-surface-pure tracking-wider">IGI Certified</span>
+</div>
+<div class="bg-emerald-surface p-space-sm flex items-center gap-2">
+<span class="material-symbols-outlined text-hallmark-gold text-lg">security</span>
+<span class="font-label-sm text-label-sm uppercase text-surface-pure tracking-wider">Insured Transit</span>
+</div>
+<div class="bg-emerald-surface p-space-sm flex items-center gap-2">
+<span class="material-symbols-outlined text-hallmark-gold text-lg">chat_bubble</span>
+<span class="font-label-sm text-label-sm uppercase text-surface-pure tracking-wider">Live Stylist</span>
+</div>
+</div>
+<!-- CTAs -->
+<div class="flex flex-wrap items-center gap-space-md pt-space-xs">
+<a class="px-space-xl py-space-md bg-hallmark-gold text-emerald-deep font-label-md text-label-md uppercase tracking-widest font-semibold hover:bg-gold-light transition-colors duration-150 inline-flex items-center gap-space-sm" href="#catalogue">
+              Explore Heritage Collection
+              <span class="material-symbols-outlined text-lg">arrow_forward</span>
+</a>
+<button class="px-space-lg py-space-md bg-transparent text-surface-pure hover:bg-surface-pure/10 transition-colors duration-150 font-label-md text-label-md uppercase tracking-widest inline-flex items-center gap-space-sm underline underline-offset-8 decoration-hallmark-gold" onclick="openConciergeModal()">
+<span class="material-symbols-outlined text-lg text-hallmark-gold">videocam</span>
+              Virtual Atelier Consultation
+            </button>
+</div>
+</div>
+<!-- Right Column: Visual Vitrine with Spec Plaque -->
+<div class="lg:col-span-5 relative">
+<div class="relative bg-emerald-surface p-space-md shadow-2xl">
+<div class="relative aspect-[4/5] overflow-hidden bg-emerald-deep">
+<img class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-700" data-alt="High-end editorial studio photography of an Indian regal royal uncut diamond Polki and Zambian emerald necklace displayed on sculpted black bust with warm rim lighting revealing intricate gold granulation and pristine craftsmanship" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD7oVOo9KyBwwkrkid_nSk4pzeoQ849EzTkZSmqMPKEAgk51blvDqOiJMfjrE76O2SxJ92DSVJNQJbatLruKpBRnxHkJx0IbDFKhklYXq3TBIbWTsEAWc-erkQnV5azu0kGQEA6OCs3urkDenwDnGE4_8jBJi9JKmCRHb2bkoxp8DzBjwLzFiDHZpynZee6d91-0X30h8VRPZefqQFytJxe3UTddpmFm9PIBAGr7cJ6BhZJgUP0sw-g-g"/>
+<div class="absolute top-space-md left-space-md bg-emerald-deep/90 backdrop-blur-md px-space-sm py-1">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-hallmark-gold">Atelier Vault Masterpiece</span>
+</div>
+<div class="absolute bottom-space-md right-space-md bg-surface-pure text-emerald-deep px-space-md py-space-xs shadow-lg">
+<span class="font-headline-sm text-headline-sm">₹2,84,000</span>
+</div>
+</div>
+<!-- Plaque Detail -->
+<div class="mt-space-md bg-emerald-deep p-space-md flex items-center justify-between">
+<div>
+<p class="font-title-md text-title-md text-surface-pure">The Nizam Sovereign Collar</p>
+<p class="font-label-sm text-label-sm uppercase text-hallmark-gold tracking-widest">22K Yellow Gold • 14.8ct Uncut Polki</p>
+</div>
+<button class="p-space-sm bg-hallmark-gold text-emerald-deep hover:bg-gold-light transition-colors" onclick="quickAddToCart('The Nizam Sovereign Collar', 284000, '22K Gold • 14.8ct Polki')">
+<span class="material-symbols-outlined text-xl">keyboard_double_arrow_left</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- LIVE BULLION RATE TICKER & ASSURANCE STRIP -->
+<section class="w-full bg-surface-ivory py-space-xs">
+<div class="max-w-7xl mx-auto px-margin lg:px-margin-desktop flex flex-wrap items-center justify-between gap-space-sm font-label-sm text-label-sm text-on-surface-variant">
+<div class="flex items-center gap-space-md">
+<span class="flex items-center gap-1 font-semibold text-emerald-deep">
+<span class="w-2 h-2 rounded-full bg-emerald-deep animate-ping"></span>
+          Live Daily Bullion Benchmark:
+        </span>
+<span>24K Gold: <strong class="text-emerald-deep">₹7,385 / g</strong></span>
+<span class="hidden sm:inline">|</span>
+<span class="hidden sm:inline">22K 916 Hallmark: <strong class="text-emerald-deep">₹6,770 / g</strong></span>
+</div>
+<div class="flex items-center gap-space-md text-primary font-medium">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-sm">lock</span>
+          Direct PhonePe 256-Bit SSL Checkout
+        </span>
+<span class="hidden md:inline">|</span>
+<span class="hidden md:inline">Complimentary Armored Courier Insurance</span>
+</div>
+</div>
+</section>
+<!-- HAUTE CATEGORY VITRINES -->
+<section class="w-full py-space-3xl bg-surface-cream">
+<div class="max-w-7xl mx-auto px-margin lg:px-margin-desktop">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-space-xl gap-space-md">
+<div class="space-y-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-[0.2em] text-gold-deep">Curated Ateliers</span>
+<h2 class="font-headline-lg text-headline-lg text-emerald-deep">Curations of Rare Proportion</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+          Explore artisanal categories handcrafted by master smiths whose lineage spans six generations in royal deccan jewellery carving.
+        </p>
+</div>
+<!-- Category Bento Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-space-md">
+<!-- Cat 1 -->
+<div class="group relative bg-surface-pure overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300">
+<div class="aspect-[4/3] overflow-hidden bg-surface-ivory">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Close up photograph of intricate gold choker necklace studded with natural Burmese rubies and polki diamonds resting over sand colored raw linen fabric with directional sunlight" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD8ltJxQ6lZc2SrlQmkZijLPpZxjRrXysex6dhM_uIUNKXpw1b5pRWH2gHWknYexHAoUPUJMn1TNRaSuDNYGgrgm2Y8Pk4epqolW8PkRc4S1UFlJQQSSst7eyX9QvgNPnXVBkSl0EGaEYUNIEEOMUzDWz-r9Jo_Z2qqdBrHaCuz8N70Pw25xhPdzqaMqgKfn2CpbmDbEGBjR4ESXhKPlNunW3fFEsI6wu6A5RKjq5Nv1Qkp6lZWpJdpjA"/>
+</div>
+<div class="p-space-lg flex items-center justify-between bg-surface-pure">
+<div>
+<h3 class="font-title-md text-title-md text-emerald-deep">Necklaces &amp; Chokers</h3>
+<p class="font-label-sm text-label-sm text-gold-deep uppercase tracking-wider mt-1">28 Master Creations</p>
+</div>
+<a class="p-space-xs text-emerald-deep group-hover:text-gold-deep transition-colors" href="#catalogue" onclick="filterCategory('Royal Chokers')">
+<span class="material-symbols-outlined text-2xl">arrow_outward</span>
+</a>
+</div>
+</div>
+<!-- Cat 2 -->
+<div class="group relative bg-surface-pure overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300">
+<div class="aspect-[4/3] overflow-hidden bg-surface-ivory">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Traditional Indian Jadau Kundan and Polki bridal heritage necklace with pearl drops laid out in luxury salon vitrine with soft golden highlights" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA1Oxdw-igFqffPgt7DXcsCerskqjKVG63h6HC1sBg0b0Al4BnAtaDdX4SoqKmLPgGXNLV4COJoJQHyC04xzQ1FGlb33h8s_NzfXKjpItqur3UkXiyOlpTJpk74KkkcbD1SDyaJU_tIRjysbtxs7YjjxHzPX6EJ91zU-VRuTja-FtPZYEStywdgammSbEKlv7PwLledYLu_WHecxY_DmiS0SLWIRFQjB6rQh6Ui_UwmJZaUr6vsDTRKww"/>
+</div>
+<div class="p-space-lg flex items-center justify-between bg-surface-pure">
+<div>
+<h3 class="font-title-md text-title-md text-emerald-deep">Royal Polki &amp; Kundan</h3>
+<p class="font-label-sm text-label-sm text-gold-deep uppercase tracking-wider mt-1">19 Heirloom Pieces</p>
+</div>
+<a class="p-space-xs text-emerald-deep group-hover:text-gold-deep transition-colors" href="#catalogue" onclick="filterCategory('Royal Chokers')">
+<span class="material-symbols-outlined text-2xl">arrow_outward</span>
+</a>
+</div>
+</div>
+<!-- Cat 3 -->
+<div class="group relative bg-surface-pure overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300">
+<div class="aspect-[4/3] overflow-hidden bg-surface-ivory">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Macro view of three brilliant cut diamond solitaire rings in 18k yellow and rose gold resting on dark textured architectural slate tile with sharp reflections" src="https://lh3.googleusercontent.com/aida-public/AB6AXuABJjbV44GCueIIC93p0AM-dl9edd-LUurQDj6FJjjDKgsTVaWizcVREE8k_maLbEIMZGVlDeQFGMB2kKEpIHb_0r1EEc8TpMVDFBrac0Fd6GVktu1OvETQ83LuYabUFS9PwM1smukOkDEEe6SDbJVK8BhAEt7gW_8fJjTcnffvskx829yiEQyREDR588fZz_NKUxTzbQdI9iT74fA4Bfoz8RkxtViLRdcA3DcPY2Tb2Xf6porhApybig"/>
+</div>
+<div class="p-space-lg flex items-center justify-between bg-surface-pure">
+<div>
+<h3 class="font-title-md text-title-md text-emerald-deep">Solitaire &amp; Eternity Rings</h3>
+<p class="font-label-sm text-label-sm text-gold-deep uppercase tracking-wider mt-1">34 Certified Bands</p>
+</div>
+<a class="p-space-xs text-emerald-deep group-hover:text-gold-deep transition-colors" href="#catalogue" onclick="filterCategory('Statement Rings')">
+<span class="material-symbols-outlined text-2xl">arrow_outward</span>
+</a>
+</div>
+</div>
+<!-- Cat 4 -->
+<div class="group relative bg-surface-pure overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300">
+<div class="aspect-[4/3] overflow-hidden bg-surface-ivory">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Exquisite artisanal bell shaped Indian gold Jhumkas with seed pearl clusters and fine filigree engraving hanging against warm cream stucco wall" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCSltPHZQtm-cnumzLcvmLEPmm8-x-G_BTDHcWwEDtEk-4Wm7IunKoHDnCOoTNVWEnacffPCMtuCHfoVUkrNhv4ROw4bxRq7VQIUgZEnhn0tCtp8dj0uSSJX2ZngEUDqukZgyONMXO2ckbN_6ZkimAIz834BuS1iUXsCtGARay8xVDwG6VXin95Mma-rP1nsKWWDwz41zHyyD31aWuye1dCuuW7iM4T_NhfQ5tfnOBs6kQhuYGEMhBuYQ"/>
+</div>
+<div class="p-space-lg flex items-center justify-between bg-surface-pure">
+<div>
+<h3 class="font-title-md text-title-md text-emerald-deep">Artisan Jhumkas &amp; Drops</h3>
+<p class="font-label-sm text-label-sm text-gold-deep uppercase tracking-wider mt-1">22 Handcrafted Pairs</p>
+</div>
+<a class="p-space-xs text-emerald-deep group-hover:text-gold-deep transition-colors" href="#catalogue" onclick="filterCategory('Diamond Earrings')">
+<span class="material-symbols-outlined text-2xl">arrow_outward</span>
+</a>
+</div>
+</div>
+<!-- Cat 5 -->
+<div class="group relative bg-surface-pure overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300">
+<div class="aspect-[4/3] overflow-hidden bg-surface-ivory">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Grand bridal trousseau jewellery suite including hasli necklace maang tikka and bangles in gold velvet gift chest with satin cushions" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCAd5ektYADxTjUJpACSpehSvN5tXVDb23IdmOSxuBJ-MWT56MS3UkLxYlPFXWB2KF6KZmwDpXW6EUJq_0pEfZClVIqL9iiQGwuNWGTg0Fdsl_qMlv22hzps19GubkjH4PmKHtgpYtMC9kzoxqKGT8MhBaI8WU6xDv4_oEHNLZehr4sGw5BR-R0Fbt6EvaL8OTinttQrAKuAVs5fHSJgvGggFah4DxfUbjGMhACkELwGTsHjrc9L4r-bw"/>
+</div>
+<div class="p-space-lg flex items-center justify-between bg-surface-pure">
+<div>
+<h3 class="font-title-md text-title-md text-emerald-deep">Bridal Trousseau Suites</h3>
+<p class="font-label-sm text-label-sm text-gold-deep uppercase tracking-wider mt-1">Complete Bridal Ensembles</p>
+</div>
+<a class="p-space-xs text-emerald-deep group-hover:text-gold-deep transition-colors" href="#catalogue" onclick="filterCategory('Temple Jewellery')">
+<span class="material-symbols-outlined text-2xl">arrow_outward</span>
+</a>
+</div>
+</div>
+<!-- Cat 6 -->
+<div class="group relative bg-surface-pure overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300">
+<div class="aspect-[4/3] overflow-hidden bg-surface-ivory">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Subtle everyday modern minimalist 18k solid gold baguette diamond bangles and delicate stacking chain bracelets against warm sandstone pedestal" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBRZ-eR6DpabCML_2ylb9eoqaS2Vp02ppddq64QXduiqNUQg1-6M8PnuY96ZNAqsHTT-zJsMfyBtud_aim342NOrQ0V3ZjyzY-BlfPOxele0Hh8AXdLzVWBMHRrJh8VJqUEfP45A1Sv5ESMq122iXAxjvWUy1LtHCylsvzx6iaNsWorPDMekNMdJQ31J8cNV29a56HZ7UvCo2lUle2LU5MUOmadaVoaRMIhbiNFf9UtIv5CR0fww0Ni5w"/>
+</div>
+<div class="p-space-lg flex items-center justify-between bg-surface-pure">
+<div>
+<h3 class="font-title-md text-title-md text-emerald-deep">Daily Minimalist Gold</h3>
+<p class="font-label-sm text-label-sm text-gold-deep uppercase tracking-wider mt-1">45 Everyday Essentials</p>
+</div>
+<a class="p-space-xs text-emerald-deep group-hover:text-gold-deep transition-colors" href="#catalogue" onclick="filterCategory('All')">
+<span class="material-symbols-outlined text-2xl">arrow_outward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- INTERACTIVE CATALOGUE & PRODUCT SUITE -->
+<section class="w-full py-space-3xl bg-surface" id="catalogue">
+<div class="max-w-7xl mx-auto px-margin lg:px-margin-desktop">
+<!-- Section Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between pb-space-lg gap-space-md">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-[0.2em] text-hallmark-gold">Vault Catalog</span>
+<h2 class="font-headline-lg text-headline-lg text-emerald-deep mt-1">Certified Hallmarked Creations</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-sm">
+          Strictly limited batches. Each jewel accompanied by an individualized physical BIS Certificate card and digital blockchain NFC authenticity stamp.
+        </p>
+</div>
+<!-- Controls: Category Pills & Sorting -->
+<div class="bg-surface-pure p-space-md shadow-sm mb-space-xl flex flex-col md:flex-row items-center justify-between gap-space-md">
+<!-- Filter Pills -->
+<div class="flex flex-wrap items-center gap-space-xs w-full md:w-auto" id="filterPillContainer">
+<button class="filter-pill active px-space-md py-space-xs font-label-md text-label-md uppercase tracking-wider bg-emerald-deep text-hallmark-gold" onclick="applyFilter('All', this)">All Works (6)</button>
+<button class="filter-pill px-space-md py-space-xs font-label-md text-label-md uppercase tracking-wider bg-surface-cream text-on-surface-variant hover:bg-surface-ivory" onclick="applyFilter('Royal Chokers', this)">Royal Chokers</button>
+<button class="filter-pill px-space-md py-space-xs font-label-md text-label-md uppercase tracking-wider bg-surface-cream text-on-surface-variant hover:bg-surface-ivory" onclick="applyFilter('Diamond Earrings', this)">Diamond Earrings</button>
+<button class="filter-pill px-space-md py-space-xs font-label-md text-label-md uppercase tracking-wider bg-surface-cream text-on-surface-variant hover:bg-surface-ivory" onclick="applyFilter('Statement Rings', this)">Statement Rings</button>
+<button class="filter-pill px-space-md py-space-xs font-label-md text-label-md uppercase tracking-wider bg-surface-cream text-on-surface-variant hover:bg-surface-ivory" onclick="applyFilter('Temple Jewellery', this)">Temple &amp; Bridal</button>
+</div>
+<!-- Sort Select -->
+<div class="flex items-center gap-space-sm w-full md:w-auto justify-end">
+<span class="font-label-sm text-label-sm uppercase text-outline">Order By:</span>
+<select class="bg-surface-cream px-space-md py-space-xs font-label-sm text-label-sm text-emerald-deep focus:outline-none" id="sortSelector" onchange="applySorting(this.value)">
+<option value="featured">Best Sellers (Popular)</option>
+<option value="price-asc">Price: Low to High</option>
+<option value="price-desc">Price: High to Low</option>
+<option value="karat">Purity: 22K Hallmarked First</option>
+</select>
+</div>
+</div>
+<!-- Product Cards Vitrine Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-space-lg" id="productGrid">
+<!-- Products populated dynamically via JavaScript below for real-time state sorting and filtering -->
+</div>
+<!-- Quick View Modal Slot -->
+<div class="fixed inset-0 z-50 bg-emerald-deep/80 backdrop-blur-sm hidden flex items-center justify-center p-space-md" id="quickViewModal">
+<div class="bg-surface-pure max-w-3xl w-full p-space-xl shadow-2xl relative">
+<button class="absolute top-space-md right-space-md text-emerald-deep hover:text-gold-deep" onclick="closeQuickView()">
+<span class="material-symbols-outlined text-2xl">close</span>
+</button>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-xl" id="modalContent">
+<!-- Modal body filled dynamically -->
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- BIS HALLMARKING & ARTISAN INTEGRITY EXPLAINER -->
+<section class="w-full py-space-3xl bg-emerald-deep text-surface-pure">
+<div class="max-w-7xl mx-auto px-margin lg:px-margin-desktop">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-2xl items-center">
+<div class="lg:col-span-5 space-y-space-md">
+<span class="font-label-sm text-label-sm uppercase tracking-[0.25em] text-hallmark-gold">Statutory Assaying Rigor</span>
+<h2 class="font-headline-lg text-headline-lg leading-tight">Every Microgram Tested. Guaranteed Forever.</h2>
+<p class="font-body-md text-body-md text-surface-dim">
+            Unlike commercial mass-market retailers, RareMade subjects each creation to dual-fire assaying at government-sanctioned Bureau of Indian Standards (BIS) laboratories before registration with an irrevocable 6-character alphanumeric HUID.
+          </p>
+<div class="space-y-space-sm pt-space-xs">
+<div class="flex items-start gap-space-sm bg-emerald-surface p-space-md">
+<span class="material-symbols-outlined text-hallmark-gold text-2xl mt-0.5">fingerprint</span>
+<div>
+<p class="font-label-md text-label-md uppercase tracking-wider text-surface-pure">6-Digit Laser Inscribed HUID</p>
+<p class="font-body-sm text-body-sm text-surface-dim">Look inside any ring shank or necklace clasp to verify your unique hallmarking identification code directly on the BIS Care App.</p>
+</div>
+</div>
+<div class="flex items-start gap-space-sm bg-emerald-surface p-space-md">
+<span class="material-symbols-outlined text-hallmark-gold text-2xl mt-0.5">diamond</span>
+<div>
+<p class="font-label-md text-label-md uppercase tracking-wider text-surface-pure">IGI International Diamond Dossier</p>
+<p class="font-body-sm text-body-sm text-surface-dim">Solitaires are color-graded F-G and clarity-graded VVS1 minimum, each with laser-etched girdle serial numbers.</p>
+</div>
+</div>
+<div class="flex items-start gap-space-sm bg-emerald-surface p-space-md">
+<span class="material-symbols-outlined text-hallmark-gold text-2xl mt-0.5">currency_rupee</span>
+<div>
+<p class="font-label-md text-label-md uppercase tracking-wider text-surface-pure">Lifetime Buyback &amp; 100% Value Exchange</p>
+<p class="font-body-sm text-body-sm text-surface-dim">Guaranteed exchange policy on gold weight at current benchmark rates across our Hyderabad salon or via insured door-pickup.</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Visual Anatomy Graphic of Hallmarking Stamp -->
+<div class="lg:col-span-7 bg-emerald-surface p-space-xl">
+<div class="flex items-center justify-between pb-space-md">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-hallmark-gold">BIS Hallmark Anatomy Guide</span>
+<span class="font-label-sm text-label-sm text-surface-dim">Standard 916 Assayed Piece</span>
+</div>
+<!-- Diagram Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-space-md text-center py-space-lg bg-emerald-deep">
+<div class="p-space-md space-y-2">
+<div class="w-16 h-16 mx-auto bg-emerald-surface flex items-center justify-center text-hallmark-gold">
+<span class="material-symbols-outlined text-3xl">verified</span>
+</div>
+<p class="font-label-md text-label-md uppercase tracking-wider text-surface-pure">1. BIS Triangle Mark</p>
+<p class="font-body-sm text-body-sm text-surface-dim">Official Government Bureau Emblem</p>
+</div>
+<div class="p-space-md space-y-2">
+<div class="w-16 h-16 mx-auto bg-emerald-surface flex items-center justify-center text-hallmark-gold">
+<span class="font-headline-sm text-headline-sm">916</span>
+</div>
+<p class="font-label-md text-label-md uppercase tracking-wider text-surface-pure">2. Purity in Karat</p>
+<p class="font-body-sm text-body-sm text-surface-dim">22K Fine Gold (91.6% pure metal content)</p>
+</div>
+<div class="p-space-md space-y-2">
+<div class="w-16 h-16 mx-auto bg-emerald-surface flex items-center justify-center text-hallmark-gold">
+<span class="font-label-md text-label-md font-mono tracking-widest text-hallmark-gold">RA79K4</span>
+</div>
+<p class="font-label-md text-label-md uppercase tracking-wider text-surface-pure">3. 6-Digit HUID Code</p>
+<p class="font-body-sm text-body-sm text-surface-dim">Laser inscribed traceability identifier</p>
+</div>
+</div>
+<div class="mt-space-lg flex flex-col sm:flex-row items-center justify-between gap-space-md pt-space-xs">
+<div class="flex items-center gap-space-sm text-surface-dim font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-hallmark-gold">qr_code_scanner</span>
+              Verify your jewel at BIS Care App (bis.gov.in)
+            </div>
+<a class="font-label-sm text-label-sm uppercase tracking-widest text-hallmark-gold hover:underline" data-path="certificate-verify" href="#">
+              Search Verification Registry →
+            </a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- VERIFIED PATRON TESTIMONIALS & SOCAL PROOF -->
+<section class="w-full py-space-3xl bg-surface-ivory">
+<div class="max-w-7xl mx-auto px-margin lg:px-margin-desktop">
+<div class="text-center max-w-2xl mx-auto space-y-space-xs mb-space-2xl">
+<span class="font-label-sm text-label-sm uppercase tracking-[0.2em] text-gold-deep">Patron Endorsements</span>
+<h2 class="font-headline-lg text-headline-lg text-emerald-deep">Heirlooms Revered Across Generations</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Read accounts of our bespoke commissions and timely armored deliveries from discerning collectors.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg">
+<!-- Review 1 -->
+<div class="bg-surface-pure p-space-xl shadow-sm flex flex-col justify-between">
+<div class="space-y-space-md">
+<div class="flex items-center gap-1 text-hallmark-gold">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-sm text-label-sm text-outline ml-2">Verified Purchase</span>
+</div>
+<p class="font-headline-sm text-headline-sm text-emerald-deep italic leading-relaxed">
+              “The Noor Emerald Choker arrived in a tamper-proof armored case in Mumbai within 48 hours. The weight, BIS hallmark micro-etching, and deep green fire of the stones are extraordinary.”
+            </p>
+</div>
+<div class="pt-space-lg mt-space-lg bg-surface-cream p-space-md flex items-center gap-space-md">
+<div class="w-12 h-12 overflow-hidden bg-surface-dim">
+<img class="w-full h-full object-cover" data-alt="Portrait of elegant Indian woman in her thirties with sophisticated styling wearing gold earrings against natural light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCEUDk3fkckuOCPBvyiVs4cbLGqd5PIrD5DtRyEIGBGnkBkVYGIxfIEWqaV3yyb_UJn8ZizDo6VsgOdGh9cTGgsZrB9fcXufvdyr7vqiK0DrwQvGW8jj64khM-jRj0b3yDpXTFtmFplRzZWcDAXqr0r4CssZxAhyC3wfyyFDRIJNrd486teeStaC4CtIZAczxTh4W0IG1WtzQPSokIdgPxKEvAZfNGQQlOJto_N5D2lYUsdlXhifogOOQ"/>
+</div>
+<div>
+<p class="font-title-md text-title-md text-emerald-deep">Ananya Deshmukh</p>
+<p class="font-label-sm text-label-sm uppercase text-gold-deep tracking-wider">Bandra West, Mumbai • BIS Certified</p>
+</div>
+</div>
+</div>
+<!-- Review 2 -->
+<div class="bg-surface-pure p-space-xl shadow-sm flex flex-col justify-between">
+<div class="space-y-space-md">
+<div class="flex items-center gap-1 text-hallmark-gold">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-sm text-label-sm text-outline ml-2">Verified Purchase</span>
+</div>
+<p class="font-headline-sm text-headline-sm text-emerald-deep italic leading-relaxed">
+              “We booked an atelier video call with their master gemologist prior to ordering the Zephyr Solitaire Band. The UPI payment via PhonePe was instantaneous, and the ring fits like poetry.”
+            </p>
+</div>
+<div class="pt-space-lg mt-space-lg bg-surface-cream p-space-md flex items-center gap-space-md">
+<div class="w-12 h-12 overflow-hidden bg-surface-dim">
+<img class="w-full h-full object-cover" data-alt="Portrait of South Indian professional gentleman in linen jacket smiling indoors in Bangalore residence" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD4zVJK2r61bcDhSyiu-xNn2kWbuJSMG04Gu31hIaThUo4BUSWQ-QWS9ls8pWEEuTmwTSE_s4tPr8KGUTsZBpVKT9Ujux0M9eMAqTcXaQtSEUFO4-sz0LVLtALE1Q99EFFLuAwXrf6onIvjSvwdN2OCYgq4aswoukxMZnSrtpiKMVGX7g0yU6dTknIg73phOHYNGrhYc8egctQal5jXAFv6Ji_LbrU-lBDJoVI--0IZjXckDUz1R1aSLA"/>
+</div>
+<div>
+<p class="font-title-md text-title-md text-emerald-deep">Vikram &amp; Nikhila Reddy</p>
+<p class="font-label-sm text-label-sm uppercase text-gold-deep tracking-wider">Indiranagar, Bangalore • IGI Certified</p>
+</div>
+</div>
+</div>
+<!-- Review 3 -->
+<div class="bg-surface-pure p-space-xl shadow-sm flex flex-col justify-between">
+<div class="space-y-space-md">
+<div class="flex items-center gap-1 text-hallmark-gold">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-sm text-label-sm text-outline ml-2">Verified Purchase</span>
+</div>
+<p class="font-headline-sm text-headline-sm text-emerald-deep italic leading-relaxed">
+              “RareMade crafted our daughter's entire bridal trousseau. The craftsmanship on the Kundan Hasli is authentic deccan art. They also offered effortless valuation documentation for our family vault.”
+            </p>
+</div>
+<div class="pt-space-lg mt-space-lg bg-surface-cream p-space-md flex items-center gap-space-md">
+<div class="w-12 h-12 overflow-hidden bg-surface-dim">
+<img class="w-full h-full object-cover" data-alt="Portrait of mature Indian woman draped in raw silk saree smiling serenely in Hyderabad courtyard setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD4ADdaFsJIbL-LCdt3UGNPc3GFEZMth5hEJBgcOSoO81XEsS7TckasiIP2SMtouKX9hk6FeYoCzN1A49JCt0Hd1aYCUeDQOtuVgbyinU-e47OdZ9OwTaoTl6ygbGYHe-Wjto7zY_6Hdgywfcvkqf-evHJL1dx_zcWlzdsxix6XvYdG_lYb4mUOcm4KZTT0ZIudlnmNDzRDR5FyuT9dabPCFJcIibLL3-Pp1FzAajBYnrvmlxPyZKn00A"/>
+</div>
+<div>
+<p class="font-title-md text-title-md text-emerald-deep">Meenakshi Sundaram</p>
+<p class="font-label-sm text-label-sm uppercase text-gold-deep tracking-wider">Jubilee Hills, Hyderabad • BIS Certified</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SYSTEM GATEWAYS DEMONSTRATION STRIP -->
+<section class="w-full py-space-xl bg-surface-pure">
+<div class="max-w-7xl mx-auto px-margin lg:px-margin-desktop">
+<div class="bg-surface-cream p-space-lg flex flex-col lg:flex-row items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-md">
+<div class="w-12 h-12 bg-upi-brand text-surface-pure flex items-center justify-center font-bold text-xl">
+            पे
+          </div>
+<div>
+<h4 class="font-title-md text-title-md text-emerald-deep">PhonePe Enterprise Payment Gateway Integration</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Instant zero-bounce UPI intent, RuPay credit cards, and bank netbanking verified with high-concurrency tokenization.</p>
+</div>
+</div>
+<div class="flex items-center gap-space-sm w-full lg:w-auto justify-end">
+<button class="px-space-md py-space-xs bg-emerald-deep text-hallmark-gold font-label-sm text-label-sm uppercase tracking-wider hover:bg-emerald-surface transition-colors" onclick="toggleCartDrawer(true)">
+            Test Drawer Checkout
+          </button>
+<a class="px-space-md py-space-xs bg-hallmark-gold text-emerald-deep font-label-sm text-label-sm uppercase tracking-wider font-semibold hover:bg-gold-light transition-colors" data-path="admin-portal" href="#">
+            Atelier Management Portal →
+          </a>
+</div>
+</div>
+</div>
+</section>
+<!-- INTERACTIVE SIDE CART DRAWER & PHONEPE SLIDE-OVER -->
+<div class="fixed inset-0 z-50 bg-emerald-deep/70 backdrop-blur-xs transition-opacity duration-300 opacity-0 pointer-events-none" id="cartDrawerBackdrop" onclick="toggleCartDrawer(false)"></div>
+<aside class="fixed top-0 right-0 z-50 h-full w-full max-w-md bg-surface-pure shadow-2xl flex flex-col transform translate-x-full transition-transform duration-300 ease-in-out" id="cartDrawer">
+<!-- Drawer Header -->
+<div class="p-space-lg bg-emerald-deep text-surface-pure flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-hallmark-gold">shopping_bag</span>
+<div>
+<h3 class="font-title-md text-title-md leading-tight">Your Atelier Vault</h3>
+<p class="font-label-sm text-label-sm text-gold-light uppercase tracking-wider" id="cartItemCountHeader">1 Creation Selected</p>
+</div>
+</div>
+<button class="text-surface-dim hover:text-surface-pure p-1" onclick="toggleCartDrawer(false)">
+<span class="material-symbols-outlined text-2xl">close</span>
+</button>
+</div>
+<!-- Assurance Ribbon -->
+<div class="bg-surface-ivory px-space-md py-space-xs flex items-center justify-between text-[11px] font-label-sm uppercase tracking-wider text-emerald-deep">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[13px] text-hallmark-gold">local_shipping</span> Insured Armored Transit</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[13px] text-hallmark-gold">verified</span> 30-Day Atelier Exchange</span>
+</div>
+<!-- Cart Items Scroll Area -->
+<div class="flex-1 overflow-y-auto p-space-md space-y-space-md" id="cartItemsContainer">
+<!-- Items dynamically populated via JavaScript -->
+</div>
+<!-- Coupon Code Input -->
+<div class="px-space-md py-space-sm bg-surface-cream">
+<div class="flex items-center gap-space-xs">
+<div class="relative flex-1">
+<input class="w-full bg-surface-pure text-body-sm font-body-sm px-space-sm py-2 text-on-surface uppercase focus:outline-none placeholder:normal-case" id="couponInput" placeholder="Promo code (Try: ROYAL10)" type="text"/>
+</div>
+<button class="px-space-md py-2 bg-emerald-deep text-hallmark-gold font-label-sm text-label-sm uppercase tracking-wider hover:bg-emerald-surface" onclick="applyCoupon()">
+          Apply
+        </button>
+</div>
+<div class="font-label-sm text-[11px] mt-1 text-primary hidden" id="couponMessage">10% Royal Atelier privilege discount applied!</div>
+</div>
+<!-- Order Financials Calculation -->
+<div class="p-space-md bg-surface-pure space-y-space-xs">
+<div class="flex items-center justify-between font-body-sm text-body-sm text-on-surface-variant">
+<span>Vault Subtotal</span>
+<span class="font-semibold text-on-surface" id="cartSubtotal">₹42,500</span>
+</div>
+<div class="flex items-center justify-between font-body-sm text-body-sm text-primary hidden" id="discountRow">
+<span>Patron Privilege (10%)</span>
+<span id="cartDiscount">- ₹4,250</span>
+</div>
+<div class="flex items-center justify-between font-body-sm text-body-sm text-on-surface-variant">
+<span>Insured Valuables Transit &amp; Packaging</span>
+<span class="text-hallmark-gold font-semibold uppercase text-label-sm">Complimentary (₹0)</span>
+</div>
+<div class="flex items-center justify-between font-body-sm text-body-sm text-on-surface-variant">
+<span>Applicable GST (3% Bullion Tax)</span>
+<span class="font-semibold text-on-surface" id="cartTax">₹1,275</span>
+</div>
+<div class="flex items-center justify-between pt-space-xs font-title-md text-title-md text-emerald-deep font-semibold">
+<span>Total Payable</span>
+<span class="font-headline-sm text-headline-sm" id="cartTotal">₹43,775</span>
+</div>
+<!-- PhonePe Direct Secure Checkout CTA -->
+<div class="pt-space-sm space-y-space-xs">
+<button class="w-full py-space-md bg-upi-brand text-surface-pure font-label-md text-label-md uppercase tracking-widest font-semibold hover:opacity-95 transition-all shadow-md flex items-center justify-center gap-space-sm" onclick="initiatePhonePeCheckout()">
+<span>पे</span>
+<span>Pay via PhonePe UPI / Cards</span>
+<span class="material-symbols-outlined text-lg">lock</span>
+</button>
+<p class="font-label-sm text-[10px] text-center text-outline uppercase tracking-wider">
+          Secured by PhonePe Payment Gateway • Instant 256-Bit Bank Encryption
+        </p>
+</div>
+</div>
+</aside>
+<!-- FLOATING WHATSAPP PERSONAL STYLIST / CONCIERGE BUTTON -->
+<div class="fixed bottom-6 right-6 z-40 flex items-center gap-space-xs">
+<div class="hidden sm:block bg-surface-pure text-emerald-deep p-space-sm shadow-xl max-w-xs animate-bounce" id="waTooltip">
+<div class="flex items-start gap-space-xs">
+<span class="w-2 h-2 rounded-full bg-emerald-deep mt-1.5 flex-shrink-0"></span>
+<p class="font-label-sm text-[11px] leading-tight text-on-surface">
+<strong>Need styling assistance?</strong> Chat with Master Stylist Prabhavathi on WhatsApp.
+        </p>
+</div>
+</div>
+<button class="w-14 h-14 bg-emerald-deep text-hallmark-gold flex items-center justify-center shadow-2xl hover:bg-emerald-surface transition-transform duration-200 hover:scale-105 relative group" onclick="openWhatsAppModal()">
+<span class="material-symbols-outlined text-2xl">chat</span>
+<span class="absolute -top-1 -right-1 w-3.5 h-3.5 bg-hallmark-gold rounded-full"></span>
+</button>
+</div>
+<!-- WHATSAPP STYLIST MODAL -->
+<div class="fixed inset-0 z-50 bg-emerald-deep/80 backdrop-blur-sm hidden flex items-center justify-center p-space-md" id="waModal">
+<div class="bg-surface-pure max-w-md w-full p-space-xl shadow-2xl relative">
+<button class="absolute top-space-md right-space-md text-emerald-deep hover:text-gold-deep" onclick="closeWhatsAppModal()">
+<span class="material-symbols-outlined text-2xl">close</span>
+</button>
+<div class="space-y-space-md">
+<div class="flex items-center gap-space-sm">
+<div class="w-12 h-12 bg-surface-dim overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Portrait of senior jewellery advisor with specs and warm welcoming expression" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBLbJynGuhyI90lTy8nMTayB8ks6xbc5S9SeRBrmNA1QfqKAh15eA-zh9F9P_PsBfjTWVitJ3mqZampVqP8mK83WoquOnRBrL-wsxGNq_L_8fpa4wxNmPM7hxVzXWyx_NidI3pqTf2iMkpQb3Bi-Ihc3ZknyMQ-B6AOTJVEV6lsrWex23zORVYi82-Pw1I4ZpZBgVNnh5uiQTHNF3VEzyQB7jA13JPPLtZG771rbO1HFX_oAAS6hk0MlA"/>
+</div>
+<div>
+<h4 class="font-title-md text-title-md text-emerald-deep">Prabhavathi K.</h4>
+<p class="font-label-sm text-label-sm text-gold-deep uppercase tracking-wider">RareMade Senior Gem Stylist</p>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Connect directly via WhatsApp for high-definition 4K video previews, customized ring sizing guides, or bridal trousseau consultations.
+        </p>
+<div class="bg-surface-cream p-space-sm space-y-1 text-body-sm font-body-sm">
+<p class="font-semibold text-emerald-deep">Typical Response Time: &lt; 5 minutes</p>
+<p class="text-on-surface-variant">Active Hours: 10:00 AM – 9:00 PM IST (Mon–Sun)</p>
+</div>
+<button class="w-full py-space-md bg-emerald-deep text-hallmark-gold font-label-md text-label-md uppercase tracking-wider font-semibold hover:bg-emerald-surface transition-colors flex items-center justify-center gap-space-sm" onclick="simulateWhatsAppRedirect()">
+<span class="material-symbols-outlined">send</span>
+          Launch WhatsApp Chat (+91 40 8829 1100)
+        </button>
+</div>
+</div>
+</div>
+<!-- CONCIERGE BOOKING MODAL -->
+<div class="fixed inset-0 z-50 bg-emerald-deep/80 backdrop-blur-sm hidden flex items-center justify-center p-space-md" id="conciergeModal">
+<div class="bg-surface-pure max-w-lg w-full p-space-xl shadow-2xl relative">
+<button class="absolute top-space-md right-space-md text-emerald-deep hover:text-gold-deep" onclick="closeConciergeModal()">
+<span class="material-symbols-outlined text-2xl">close</span>
+</button>
+<div class="space-y-space-md">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-gold-deep">Atelier Private Salon</span>
+<h3 class="font-headline-md text-headline-md text-emerald-deep">Reserve Virtual Suite Consultation</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Receive dedicated video attention from our senior designer with live unboxings from our vault in Hyderabad.
+        </p>
+<form class="space-y-space-sm" onsubmit="handleConciergeSubmit(event)">
+<div>
+<label class="block font-label-sm text-label-sm uppercase tracking-wider text-outline mb-1">Your Full Name</label>
+<input class="w-full bg-surface-cream px-space-md py-space-xs font-body-md focus:outline-none" placeholder="Lady / Sir..." required="" type="text"/>
+</div>
+<div class="grid grid-cols-2 gap-space-sm">
+<div>
+<label class="block font-label-sm text-label-sm uppercase tracking-wider text-outline mb-1">Phone / WhatsApp</label>
+<input class="w-full bg-surface-cream px-space-md py-space-xs font-body-md focus:outline-none" placeholder="+91..." required="" type="tel"/>
+</div>
+<div>
+<label class="block font-label-sm text-label-sm uppercase tracking-wider text-outline mb-1">Preferred Date</label>
+<input class="w-full bg-surface-cream px-space-md py-space-xs font-body-md focus:outline-none" required="" type="date"/>
+</div>
+</div>
+<div>
+<label class="block font-label-sm text-label-sm uppercase tracking-wider text-outline mb-1">Interest Category</label>
+<select class="w-full bg-surface-cream px-space-md py-space-xs font-body-md focus:outline-none">
+<option>Bridal Trousseau Ensemble (Above ₹2 Lakhs)</option>
+<option>Bespoke Solitaire Ring Engagement</option>
+<option>Polki Chokers &amp; Heritage Emeralds</option>
+<option>Everyday Hallmarked 18K Gold</option>
+</select>
+</div>
+<button class="w-full py-space-md bg-emerald-deep text-hallmark-gold font-label-md text-label-md uppercase tracking-wider font-semibold hover:bg-emerald-surface transition-colors mt-space-md" type="submit">
+            Confirm Atelier Reservation
+          </button>
+</form>
+</div>
+</div>
+</div>
+<!-- CHECKOUT SUCCESS NOTIFICATION MODAL -->
+<div class="fixed inset-0 z-50 bg-emerald-deep/90 backdrop-blur-sm hidden flex items-center justify-center p-space-md" id="checkoutSuccessModal">
+<div class="bg-surface-pure max-w-md w-full p-space-2xl shadow-2xl text-center space-y-space-md relative">
+<div class="w-16 h-16 bg-upi-brand text-surface-pure mx-auto flex items-center justify-center font-bold text-2xl">
+        पे
+      </div>
+<h3 class="font-headline-md text-headline-md text-emerald-deep">Payment Request Dispatched</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+        PhonePe intent link and SMS invoice reference generated for your order. Insured dispatch will commence upon confirmation.
+      </p>
+<div class="bg-surface-cream p-space-md text-left font-body-sm text-body-sm space-y-1">
+<p><strong>Tracking Docket:</strong> RM-VAULT-2025-9981</p>
+<p><strong>Courier:</strong> BVC Logistics Armored Express</p>
+<p><strong>Insurance Cover:</strong> ₹5,00,000 Trans-India Marine Policy</p>
+</div>
+<button class="w-full py-space-md bg-emerald-deep text-hallmark-gold font-label-md text-label-md uppercase tracking-wider font-semibold" onclick="closeCheckoutSuccess()">
+        Return to Atelier Storefront
+      </button>
+</div>
+</div>
+</div>
+<!-- EMBEDDED VANILLA JAVASCRIPT STATE ENGINE -->
+<script>
+  // Product Catalog State
+  const catalogProducts = [
+    {
+      id: "prod-1",
+      title: "The Noor 18K Rose Gold Emerald Choker",
+      category: "Royal Chokers",
+      karat: "18K BIS 750",
+      price: 42500,
+      originalPrice: 48000,
+      discountPercent: 11,
+      stockNotice: "Only 2 pieces handcrafted",
+      specs: "18K Rose Gold (14.20g) • 3.2ct Zambian Emeralds",
+      imagePrompt: "Haute couture close up of luxury 18k rose gold choker necklace with teardrop emerald pendants on pristine champagne silk fabric under sharp jewellery studio spotlight",
+      altViewPrompt: "Angled macro perspective showing the microscopic BIS hallmark laser engraving and clasp lock of an 18k rose gold choker necklace"
+    },
+    {
+      id: "prod-2",
+      title: "The Celeste Polki Chandbali Earrings",
+      category: "Diamond Earrings",
+      karat: "22K BIS 916",
+      price: 28900,
+      originalPrice: 32000,
+      discountPercent: 10,
+      stockNotice: "Heirloom Edition • 3 pairs remaining",
+      specs: "22K Yellow Gold (11.80g) • Uncut Polki Diamonds",
+      imagePrompt: "Pair of regal Indian royal Chandbali earrings with polki diamonds and south sea pearl drops resting on carved black basalt stone",
+      altViewPrompt: "Earring back filigree detailing showcasing pristine meenakari enamel work on 22k gold reverse plate"
+    },
+    {
+      id: "prod-3",
+      title: "The Zephyr Solitaire Band",
+      category: "Statement Rings",
+      karat: "18K BIS 750",
+      price: 19800,
+      originalPrice: 22500,
+      discountPercent: 12,
+      stockNotice: "Made to order • Ready in 4 days",
+      specs: "18K Yellow Gold (4.10g) • 0.70ct IGI Certified F-VVS1",
+      imagePrompt: "Modern minimalist solitaire diamond engagement ring with razor edge band captured in dramatic high contrast studio lighting on matte white marble",
+      altViewPrompt: "Overhead view showing laser serial inscription along the diamond girdle and interior band hallmark"
+    },
+    {
+      id: "prod-4",
+      title: "Kundan Heritage Hasli",
+      category: "Temple Jewellery",
+      karat: "22K BIS 916",
+      price: 58000,
+      originalPrice: 65000,
+      discountPercent: 11,
+      stockNotice: "Only 1 piece remaining in salon",
+      specs: "22K Yellow Gold (24.60g) • Jadau Kundan Setting",
+      imagePrompt: "Architectural rigid solid gold Hasli collar necklace with intricate deccan kundan setting and ruby cabochons against neutral linen texture",
+      altViewPrompt: "Detail view of the intricate gold wire wrapping and hallmark authenticity stamps on the terminal ends"
+    },
+    {
+      id: "prod-5",
+      title: "Imperial Peacock Jhumka",
+      category: "Diamond Earrings",
+      karat: "22K BIS 916",
+      price: 24500,
+      originalPrice: 27000,
+      discountPercent: 9,
+      stockNotice: "Bespoke Collection",
+      specs: "22K Yellow Gold (9.40g) • Natural Basra Pearls",
+      imagePrompt: "Royal Indian peacock motif gold Jhumka earrings with hanging pearl clusters suspended in luxury jewellery display case with warm ambient backlight",
+      altViewPrompt: "Micro shot of the hand-carved peacock feather detailing with delicate micro granulation gold beads"
+    },
+    {
+      id: "prod-6",
+      title: "Aura Baguette Diamond Bangle",
+      category: "Statement Rings",
+      karat: "18K BIS 750",
+      price: 34200,
+      originalPrice: 38000,
+      discountPercent: 10,
+      stockNotice: "Quick Dispatch • In Vault",
+      specs: "18K White & Yellow Gold (12.10g) • 1.4ct Baguette Diamonds",
+      imagePrompt: "Sleek contemporary geometric baguette diamond hinged bangle bracelet resting on raw concrete architectural cube with golden hour reflection",
+      altViewPrompt: "Side view of secure safety clasp mechanism with dual click latch and laser hallmarked gold purity"
+    }
+  ];
+
+  // Active User Cart State
+  let cart = [
+    {
+      id: "prod-1",
+      title: "The Noor 18K Rose Gold Emerald Choker",
+      price: 42500,
+      specs: "18K Rose Gold • 3.2ct Zambian Emeralds",
+      quantity: 1
+    }
+  ];
+
+  let appliedDiscount = 0; // 0.10 for 10%
+
+  // Format INR Currency
+  function formatINR(amount) {
+    return "₹" + amount.toLocaleString('en-IN');
+  }
+
+  // Render Product Vitrine Grid
+  function renderProducts(items) {
+    const grid = document.getElementById('productGrid');
+    if (!grid) return;
+
+    grid.innerHTML = items.map(product => `
+      <article class="group bg-surface-pure border-0 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
+        <div>
+          <!-- Product Image Container -->
+          <div class="relative aspect-square overflow-hidden bg-surface-ivory">
+            <img src="placeholder" data-alt="${product.imagePrompt}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+            
+            <!-- Badges -->
+            <div class="absolute top-space-sm left-space-sm flex flex-col gap-1 items-start">
+              <span class="bg-surface-pure text-emerald-deep font-label-sm text-[10px] uppercase tracking-widest px-2 py-1 shadow-sm font-semibold">
+                ${product.karat}
+              </span>
+              <span class="bg-emerald-deep text-hallmark-gold font-label-sm text-[10px] uppercase tracking-wider px-2 py-0.5">
+                Save ${product.discountPercent}%
+              </span>
+            </div>
+
+            <!-- Stock Alert Tag -->
+            <div class="absolute bottom-space-sm left-space-sm bg-surface-pure/95 backdrop-blur-sm px-2 py-1 text-[11px] font-label-sm text-outline flex items-center gap-1">
+              <span class="w-1.5 h-1.5 rounded-full bg-hallmark-gold"></span>
+              ${product.stockNotice}
+            </div>
+
+            <!-- Quick View Action Overlay -->
+            <button onclick="openQuickView('${product.id}')" class="absolute bottom-space-sm right-space-sm bg-emerald-deep text-hallmark-gold p-space-xs opacity-0 group-hover:opacity-100 transition-opacity duration-200 shadow-md">
+              <span class="material-symbols-outlined text-lg">visibility</span>
+            </button>
+          </div>
+
+          <!-- Metadata Content -->
+          <div class="p-space-lg space-y-space-xs">
+            <div class="flex items-center justify-between">
+              <span class="font-label-sm text-label-sm uppercase text-gold-deep tracking-wider">${product.category}</span>
+              <span class="font-label-sm text-label-sm text-outline">100% Certified</span>
+            </div>
+
+            <h3 class="font-title-md text-title-md text-emerald-deep group-hover:text-gold-deep transition-colors">
+              ${product.title}
+            </h3>
+
+            <p class="font-body-sm text-body-sm text-on-surface-variant">
+              ${product.specs}
+            </p>
+
+            <!-- Price Presentation -->
+            <div class="pt-space-xs flex items-baseline gap-space-sm">
+              <span class="font-headline-sm text-headline-sm text-emerald-deep font-semibold">
+                ${formatINR(product.price)}
+              </span>
+              <span class="font-body-sm text-body-sm line-through text-outline">
+                ${formatINR(product.originalPrice)}
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Add To Cart Button -->
+        <div class="p-space-lg pt-0">
+          <button onclick="quickAddToCart('${product.title}', ${product.price}, '${product.specs}', '${product.id}')" class="w-full py-space-sm bg-emerald-deep text-hallmark-gold font-label-md text-label-md uppercase tracking-wider font-semibold hover:bg-emerald-surface transition-colors flex items-center justify-center gap-space-xs">
+            <span class="material-symbols-outlined text-base">add_shopping_bag</span>
+            Add to Vault
+          </button>
+        </div>
+      </article>
+    `).join('');
+  }
+
+  // Filter Catalog
+  let currentFilter = 'All';
+  function applyFilter(category, buttonEl) {
+    currentFilter = category;
+    
+    // Update active UI pills
+    document.querySelectorAll('.filter-pill').forEach(btn => {
+      btn.className = "filter-pill px-space-md py-space-xs font-label-md text-label-md uppercase tracking-wider bg-surface-cream text-on-surface-variant hover:bg-surface-ivory";
+    });
+    if (buttonEl) {
+      buttonEl.className = "filter-pill active px-space-md py-space-xs font-label-md text-label-md uppercase tracking-wider bg-emerald-deep text-hallmark-gold";
+    }
+
+    let filtered = catalogProducts;
+    if (category !== 'All') {
+      filtered = catalogProducts.filter(p => p.category === category);
+    }
+    renderProducts(filtered);
+  }
+
+  function filterCategory(catName) {
+    const pills = document.querySelectorAll('.filter-pill');
+    pills.forEach(p => {
+      if (p.textContent.includes(catName)) {
+        applyFilter(catName, p);
+      }
+    });
+  }
+
+  // Sort Catalog
+  function applySorting(sortType) {
+    let list = [...catalogProducts];
+    if (currentFilter !== 'All') {
+      list = list.filter(p => p.category === currentFilter);
+    }
+
+    if (sortType === 'price-asc') {
+      list.sort((a, b) => a.price - b.price);
+    } else if (sortType === 'price-desc') {
+      list.sort((a, b) => b.price - a.price);
+    } else if (sortType === 'karat') {
+      list.sort((a, b) => b.karat.localeCompare(a.karat));
+    }
+    renderProducts(list);
+  }
+
+  // Quick View Modal Handlers
+  function openQuickView(productId) {
+    const product = catalogProducts.find(p => p.id === productId);
+    if (!product) return;
+
+    const modal = document.getElementById('quickViewModal');
+    const content = document.getElementById('modalContent');
+
+    content.innerHTML = `
+      <div class="aspect-square bg-surface-ivory overflow-hidden">
+        <img src="placeholder" data-alt="${product.imagePrompt}" class="w-full h-full object-cover">
+      </div>
+      <div class="space-y-space-md flex flex-col justify-between">
+        <div class="space-y-space-xs">
+          <div class="flex items-center gap-space-xs">
+            <span class="bg-surface-cream px-2 py-1 font-label-sm text-label-sm uppercase text-gold-deep">${product.karat}</span>
+            <span class="bg-surface-cream px-2 py-1 font-label-sm text-label-sm uppercase text-outline">IGI Certified</span>
+          </div>
+          <h3 class="font-headline-md text-headline-md text-emerald-deep">${product.title}</h3>
+          <p class="font-body-md text-body-md text-on-surface-variant">${product.specs}</p>
+          <div class="pt-space-xs flex items-baseline gap-space-sm">
+            <span class="font-headline-sm text-headline-sm text-emerald-deep font-semibold">${formatINR(product.price)}</span>
+            <span class="font-body-sm text-body-sm line-through text-outline">${formatINR(product.originalPrice)}</span>
+          </div>
+          <div class="p-space-sm bg-surface-cream text-body-sm text-on-surface-variant space-y-1">
+            <p>• <strong>Assaying:</strong> Hallmarked via Hyderabad BIS Hallmarking Center</p>
+            <p>• <strong>Shipment:</strong> Armored blue dart express within 48 hours</p>
+            <p>• <strong>Exchange:</strong> Guaranteed 30-Day atelier exchange guarantee</p>
+          </div>
+        </div>
+        <button onclick="quickAddToCart('${product.title}', ${product.price}, '${product.specs}', '${product.id}'); closeQuickView();" class="w-full py-space-md bg-emerald-deep text-hallmark-gold font-label-md text-label-md uppercase tracking-wider font-semibold hover:bg-emerald-surface">
+          Confirm & Add to Vault
+        </button>
+      </div>
+    `;
+
+    modal.classList.remove('hidden');
+  }
+
+  function closeQuickView() {
+    const modal = document.getElementById('quickViewModal');
+    if (modal) modal.classList.add('hidden');
+  }
+
+  // Cart Slide-over Handlers
+  function toggleCartDrawer(open) {
+    const drawer = document.getElementById('cartDrawer');
+    const backdrop = document.getElementById('cartDrawerBackdrop');
+    if (open) {
+      drawer.classList.remove('translate-x-full');
+      backdrop.classList.remove('opacity-0', 'pointer-events-none');
+      backdrop.classList.add('opacity-100');
+    } else {
+      drawer.classList.add('translate-x-full');
+      backdrop.classList.remove('opacity-100');
+      backdrop.classList.add('opacity-0', 'pointer-events-none');
+    }
+  }
+
+  function updateCartUI() {
+    const container = document.getElementById('cartItemsContainer');
+    const headerCount = document.getElementById('cartItemCountHeader');
+    const subtotalEl = document.getElementById('cartSubtotal');
+    const taxEl = document.getElementById('cartTax');
+    const totalEl = document.getElementById('cartTotal');
+    const discountRow = document.getElementById('discountRow');
+    const discountEl = document.getElementById('cartDiscount');
+
+    if (!container) return;
+
+    if (cart.length === 0) {
+      container.innerHTML = `
+        <div class="text-center py-space-2xl space-y-space-sm text-outline">
+          <span class="material-symbols-outlined text-4xl text-outline">shopping_bag</span>
+          <p class="font-body-md text-body-md">Your Vault is currently unoccupied.</p>
+          <button onclick="toggleCartDrawer(false)" class="font-label-sm text-label-sm uppercase tracking-wider text-hallmark-gold underline">Explore Hallmarked Creations</button>
+        </div>
+      `;
+      headerCount.textContent = "0 Creations in Vault";
+      subtotalEl.textContent = "₹0";
+      taxEl.textContent = "₹0";
+      totalEl.textContent = "₹0";
+      discountRow.classList.add('hidden');
+      return;
+    }
+
+    const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
+    headerCount.textContent = `${totalItems} Creation${totalItems > 1 ? 's' : ''} in Vault`;
+
+    // Render items
+    container.innerHTML = cart.map(item => `
+      <div class="p-space-sm bg-surface-cream flex items-start justify-between gap-space-sm">
+        <div class="space-y-1">
+          <h4 class="font-title-md text-title-md text-emerald-deep leading-tight">${item.title}</h4>
+          <p class="font-body-sm text-body-sm text-outline text-[12px]">${item.specs}</p>
+          <p class="font-label-md text-label-md text-emerald-deep font-semibold">${formatINR(item.price)}</p>
+          
+          <!-- Quantity Controls -->
+          <div class="flex items-center gap-space-xs pt-1">
+            <button onclick="adjustQuantity('${item.id}', -1)" class="w-6 h-6 bg-surface-pure flex items-center justify-center text-emerald-deep hover:bg-surface-ivory font-bold">-</button>
+            <span class="font-label-sm text-label-sm font-semibold px-2">${item.quantity}</span>
+            <button onclick="adjustQuantity('${item.id}', 1)" class="w-6 h-6 bg-surface-pure flex items-center justify-center text-emerald-deep hover:bg-surface-ivory font-bold">+</button>
+          </div>
+        </div>
+        <button onclick="removeFromCart('${item.id}')" class="text-outline hover:text-error p-1">
+          <span class="material-symbols-outlined text-lg">delete</span>
+        </button>
+      </div>
+    `).join('');
+
+    // Math calculations
+    const subtotal = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
+    const discountAmount = Math.round(subtotal * appliedDiscount);
+    const taxableAmount = subtotal - discountAmount;
+    const gstTax = Math.round(taxableAmount * 0.03); // 3% jewellery GST
+    const grandTotal = taxableAmount + gstTax;
+
+    subtotalEl.textContent = formatINR(subtotal);
+    taxEl.textContent = formatINR(gstTax);
+    totalEl.textContent = formatINR(grandTotal);
+
+    if (appliedDiscount > 0) {
+      discountRow.classList.remove('hidden');
+      discountEl.textContent = `- ${formatINR(discountAmount)}`;
+    } else {
+      discountRow.classList.add('hidden');
+    }
+  }
+
+  function quickAddToCart(title, price, specs, id = null) {
+    const itemId = id || ("custom-" + Date.now());
+    const existing = cart.find(i => i.id === itemId);
+
+    if (existing) {
+      existing.quantity += 1;
+    } else {
+      cart.push({
+        id: itemId,
+        title: title,
+        price: price,
+        specs: specs,
+        quantity: 1
+      });
+    }
+
+    updateCartUI();
+    toggleCartDrawer(true);
+  }
+
+  function adjustQuantity(id, delta) {
+    const item = cart.find(i => i.id === id);
+    if (!item) return;
+
+    item.quantity += delta;
+    if (item.quantity <= 0) {
+      cart = cart.filter(i => i.id !== id);
+    }
+    updateCartUI();
+  }
+
+  function removeFromCart(id) {
+    cart = cart.filter(i => i.id !== id);
+    updateCartUI();
+  }
+
+  // Coupon Logic
+  function applyCoupon() {
+    const input = document.getElementById('couponInput');
+    const msg = document.getElementById('couponMessage');
+    if (!input || !msg) return;
+
+    if (input.value.trim().toUpperCase() === 'ROYAL10') {
+      appliedDiscount = 0.10;
+      msg.textContent = "10% Royal Atelier privilege discount applied!";
+      msg.classList.remove('hidden');
+      msg.classList.remove('text-error');
+      msg.classList.add('text-primary');
+    } else {
+      appliedDiscount = 0;
+      msg.textContent = "Invalid code. Please try ROYAL10 for 10% privilege.";
+      msg.classList.remove('hidden');
+      msg.classList.remove('text-primary');
+      msg.classList.add('text-error');
+    }
+    updateCartUI();
+  }
+
+  // PhonePe Checkout Action
+  function initiatePhonePeCheckout() {
+    if (cart.length === 0) {
+      alert("Your vault is empty. Please select an heirloom jewel.");
+      return;
+    }
+    toggleCartDrawer(false);
+    const modal = document.getElementById('checkoutSuccessModal');
+    if (modal) modal.classList.remove('hidden');
+  }
+
+  function closeCheckoutSuccess() {
+    const modal = document.getElementById('checkoutSuccessModal');
+    if (modal) modal.classList.add('hidden');
+  }
+
+  // WhatsApp Stylist Dialog
+  function openWhatsAppModal() {
+    const modal = document.getElementById('waModal');
+    if (modal) modal.classList.remove('hidden');
+  }
+
+  function closeWhatsAppModal() {
+    const modal = document.getElementById('waModal');
+    if (modal) modal.classList.add('hidden');
+  }
+
+  function simulateWhatsAppRedirect() {
+    alert("Initiating direct WhatsApp encrypted session with RareMade Master Stylist (+91 40 8829 1100).");
+    closeWhatsAppModal();
+  }
+
+  // Concierge Reservation
+  function openConciergeModal() {
+    const modal = document.getElementById('conciergeModal');
+    if (modal) modal.classList.remove('hidden');
+  }
+
+  function closeConciergeModal() {
+    const modal = document.getElementById('conciergeModal');
+    if (modal) modal.classList.add('hidden');
+  }
+
+  function handleConciergeSubmit(e) {
+    e.preventDefault();
+    alert("Atelier reservation confirmed. Our salon coordinator will contact you via WhatsApp with a private high-resolution stream link.");
+    closeConciergeModal();
+  }
+
+  // Global Initializer
+  document.addEventListener('DOMContentLoaded', () => {
+    renderProducts(catalogProducts);
+    updateCartUI();
+  });
+</script></main><footer class="w-full bg-emerald-deep text-surface-pure mt-space-3xl"><div class="bg-emerald-surface py-space-lg"><div class="max-w-7xl mx-auto px-margin lg:px-margin-desktop grid grid-cols-1 md:grid-cols-4 gap-space-lg text-center md:text-left"><div class="flex items-center justify-center md:justify-start gap-space-sm"><span class="material-symbols-outlined text-hallmark-gold text-2xl">verified_user</span><div><p class="font-label-md text-label-md uppercase tracking-wider text-hallmark-gold">BIS 916 Certified</p><p class="font-body-sm text-body-sm text-surface-dim">Govt. Hallmarked Purity</p></div></div><div class="flex items-center justify-center md:justify-start gap-space-sm"><span class="material-symbols-outlined text-hallmark-gold text-2xl">lock</span><div><p class="font-label-md text-label-md uppercase tracking-wider text-hallmark-gold">PhonePe Secured</p><p class="font-body-sm text-body-sm text-surface-dim">256-bit Instant UPI &amp; Cards</p></div></div><div class="flex items-center justify-center md:justify-start gap-space-sm"><span class="material-symbols-outlined text-hallmark-gold text-2xl">local_shipping</span><div><p class="font-label-md text-label-md uppercase tracking-wider text-hallmark-gold">Fully Insured Transit</p><p class="font-body-sm text-body-sm text-surface-dim">Doorstep Armored Delivery</p></div></div><div class="flex items-center justify-center md:justify-start gap-space-sm"><span class="material-symbols-outlined text-hallmark-gold text-2xl">support_agent</span><div><p class="font-label-md text-label-md uppercase tracking-wider text-hallmark-gold">WhatsApp Concierge</p><p class="font-body-sm text-body-sm text-surface-dim">Direct Artisan Consultation</p></div></div></div></div><div class="max-w-7xl mx-auto px-margin lg:px-margin-desktop py-space-2xl"><div class="grid grid-cols-1 md:grid-cols-12 gap-space-xl"><div class="md:col-span-4 space-y-space-md"><div class="flex items-center gap-space-sm"><img alt="RareMade Luxury Logo" class="h-9 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1XSi0DNpxGMIGGeme4BJHvkEf02CSSVD6Sf4oEz_6-3MZ1NF6wCkrD3bh9BMeMWTkNPYixZl2UmgtrBVRz_sbA-iEutICpCWOQCtZAQkG4kdncuZ_KIAjCn_JQ70O5ByjEi1QzL8C0JpahvPrYJh_P3nekmlSZZGlYs_ChYP2_1tgrbrGdnBNE5LfnBwVDiB5-Uj20BqB4lcE51HyS_yG_CKVnCpNXc0DGcK_jZHaKp64yTgPhxJv9XH715"/><span class="font-headline-md text-headline-md text-hallmark-gold">RareMade</span></div><p class="font-body-md text-body-md text-surface-dim max-w-sm">High-craft bespoke salon handcrafting fine gold, rare solitaires, and heirloom jewellery with timeless architectural discipline.</p><div class="flex items-center gap-space-md pt-space-xs"><span class="px-2 py-1 bg-emerald-surface text-hallmark-gold font-label-sm text-label-sm">BIS Hallmark ID: HM-9812-IN</span><span class="px-2 py-1 bg-emerald-surface text-hallmark-gold font-label-sm text-label-sm">IGI Diamond Validated</span></div></div><div class="md:col-span-2 space-y-space-sm"><h4 class="font-label-md text-label-md uppercase tracking-widest text-hallmark-gold">Haute Ateliers</h4><ul class="space-y-space-xs font-body-sm text-body-sm text-surface-dim"><li><a class="hover:text-hallmark-gold transition-colors" data-path="collections" href="#">Imperial Kundan</a></li><li><a class="hover:text-hallmark-gold transition-colors" data-path="necklaces" href="#">Polki Chokers</a></li><li><a class="hover:text-hallmark-gold transition-colors" data-path="rings" href="#">Solitaire Rings</a></li><li><a class="hover:text-hallmark-gold transition-colors" data-path="earrings" href="#">Jhumkas &amp; Drops</a></li><li><a class="hover:text-hallmark-gold transition-colors" data-path="bridal-suite" href="#">Bridal Trousseau</a></li></ul></div><div class="md:col-span-3 space-y-space-sm"><h4 class="font-label-md text-label-md uppercase tracking-widest text-hallmark-gold">Client Concierge</h4><ul class="space-y-space-xs font-body-sm text-body-sm text-surface-dim"><li><a class="hover:text-hallmark-gold transition-colors" data-path="concierge-booking" href="#">Book Atelier Appointment</a></li><li><a class="hover:text-hallmark-gold transition-colors" data-path="care-and-heritage" href="#">Jewellery Care &amp; Cleaning</a></li><li><a class="hover:text-hallmark-gold transition-colors" data-path="certificate-verify" href="#">Hallmark &amp; Certificate Verify</a></li><li><a class="hover:text-hallmark-gold transition-colors" data-path="insured-shipping" href="#">Insured Shipping Policies</a></li><li><a class="hover:text-hallmark-gold transition-colors" data-path="exchange-returns" href="#">30-Day Atelier Exchange</a></li></ul></div><div class="md:col-span-3 space-y-space-md"><h4 class="font-label-md text-label-md uppercase tracking-widest text-hallmark-gold">Artisan Desk</h4><p class="font-body-sm text-body-sm text-surface-dim">RareMade Atelier Salon, 42 Heritage Promenade, Jubilee Hills, Hyderabad - 500033</p><div class="space-y-space-xs"><p class="font-body-sm text-body-sm text-hallmark-gold font-semibold">Phone: +91 (0) 40 8829 1100</p><p class="font-body-sm text-body-sm text-surface-dim">concierge@raremadeatelier.com</p></div><div class="pt-space-xs"><span class="inline-block px-3 py-1 bg-upi-brand text-surface-pure font-label-sm text-label-sm uppercase tracking-wider font-semibold">PhonePe Verified Merchant</span></div></div></div><div class="mt-space-2xl pt-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md font-body-sm text-body-sm text-surface-dim"><p>© 2025 RareMade Haute Atelier Pvt. Ltd. All rights reserved.</p><div class="flex items-center gap-space-lg font-label-sm text-label-sm uppercase tracking-wider"><a class="hover:text-hallmark-gold transition-colors" data-path="insured-shipping" href="#">Privacy Statement</a><a class="hover:text-hallmark-gold transition-colors" data-path="exchange-returns" href="#">Terms of Bespoke Sale</a><a class="hover:text-hallmark-gold transition-colors" data-path="certificate-verify" href="#">Security &amp; Compliance</a></div></div></div></footer></body></html>
